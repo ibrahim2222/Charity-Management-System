@@ -1,0 +1,294 @@
+﻿    <div class="page-body">
+    <!-- Container-fluid starts-->
+        <div class="container-fluid">
+
+            <div class="page-title">
+                <div class="row">
+                    <div class="col-6">
+                    </div>
+                    <div class="col-6">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><button class="btn btn-pill btn btn-primary" type="button" title="btn btn-pill btn-success" data-bs-toggle="modal" data-bs-target="#exampleModalfat5" data-whatever="@Html.Raw("@mdo")">  <strong>إبلاغ عن متوفي <i class="fas fa-flag-alt"></i></strong></button></li>
+
+                            <li class="breadcrumb-item">
+                                <a asp-controller="SamplePage" asp-action="Page2">
+                                    <svg class="stroke-icon">
+                                        <use href="../assets/svg/icon-sprite.svg#stroke-home"></use>
+                                    </svg>
+                                </a>
+                            </li>
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-header p-3" style="background-color: rgb(241 241 241 / 3%);
+                                            border-bottom: 1px solid rgb(245 245 245 / 13%);">
+                    <h3 class="light-card balance-card widget-hover border border-secondary-subtle w-50 mx-auto d-flex justify-content-center border border-secondary rounded-pill bg-primary">
+                        <i class="fas fa-tombstone-alt" style="font-size:30px;"></i>  تـقرير الـمقابر
+                    </h3>
+                </div>
+
+            <div class="row mt-3">
+                <div class="col-sm-12 col-xl-12 mt-3">
+                    <div class="card card-absolute  border border-secondary">
+                        <div class="card-header bg-primary" style="top: -46px;">
+                            <h4 class="text-white">  6 أكـتوبـر </h4>
+                        </div>
+                        <div class="card-body align-items-center justify-content-center text-center">
+                            <div class="widget-content">
+                                <div class="row">
+                    
+                                    <div class="table-responsive">
+                                        <table class="table display align-middle text-center table-hover rounded-pill" id="table" data-order='[[ 0, "asc" ]]' data-page-length='10' ">
+
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center"> <i class="fas fa-signature"></i> المقبرة</th>
+                                                    <th class="text-center"><i class="fas fa-check-double"></i> الـقوة</th>
+                                                    <th class="text-center"><i class="fas fa-male"></i>  الـمتاح رجـال</th>
+                                                    <th class="text-center"><i class="fas fa-female"></i>  الـمتاح سيدات</th>
+
+                                                    <th class="text-center"><i class="fas fa-exclamation-circle"></i>  تاريخ أخــر دفـنه </th>
+                                                    <th class="text-center"><i class="fas fa-exclamation-circle"></i>    تاريخ أخــر دفـنه بالأيـام </th>
+
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-center">جـاد</td>
+                                                    <td class="text-center"><h6><span class="badge rounded-pill badge-light-primary">6 غـرف</span></h6></td>
+                                                    <td class="text-center"><h6><span class="badge rounded-pill badge-light-success"> 3 أماكن</span></h6></td>
+                                                    <td class="text-center"><h6><span class="badge rounded-pill badge-light-success"> 3 أماكن</span></h6></td>
+
+                                                    <td class="text-center">
+                                                        <h6 class="mb-1"><span class="badge rounded-pill badge-light-warning">2023 / 05 / 01 </span></h6>
+
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <h6 class="mb-1">
+                                                            <span class="badge rounded-pill badge-light-secondary">
+                                                                @DateTime.Now.Day يـوم مضـي
+                                                            </span>
+                                                        </h6>
+                                                    </td>
+                                                    @*<span class="badge rounded-pill badge-success">*@
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center">شـلبي</td>
+                                                    <td class="text-center"><h6><span class="badge rounded-pill badge-light-primary"> 6 غـرف</span></h6></td>
+                                                    <td class="text-center"> <h6><span class="badge rounded-pill badge-light-success"> 3 أماكن</span></h6></td>
+                                                    <td class="text-center"> <h6><span class="badge rounded-pill badge-light-success"> 3 أماكن</span></h6></td>
+
+                                                    <td class="text-center">
+                                                        <h6 class="mb-1"><span class="badge rounded-pill badge-light-warning">2023 / 08 / 01 </span></h6>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <h6 class="mb-1">
+                                                            <span class="badge rounded-pill badge-light-secondary">
+                                                                  @DateTime.Now.Day يـوم مضـي
+                                                            </span>
+                                                        </h6>
+                                                    </td>
+                                                    @*<span class="badge rounded-pill badge-success">*@
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center">أبـناء الـنوبه</td>
+                                                    <td class="text-center"><h6><span class="badge rounded-pill badge-light-primary"> 6 غـرف</span></h6></td>
+                                                    <td class="text-center"> <h6><span class="badge rounded-pill badge-light-success"> 3 أماكن</span></h6></td>
+                                                    <td class="text-center"> <h6><span class="badge rounded-pill badge-light-success"> 3 أماكن</span></h6></td>
+
+                                                    <td class="text-center">
+                                                        <h6 class="mb-1"><span class="badge rounded-pill badge-light-warning">2023 / 04 / 01 </span></h6>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <h6 class="mb-1">
+                                                            <span class="badge rounded-pill badge-light-secondary">
+                                                                    @DateTime.Now.Day يـوم مضـي
+                                                            </span>
+                                                        </h6>
+                                                    </td>
+                                                    @*<span class="badge rounded-pill badge-success">*@
+                                                </tr>
+
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="col-sm-12 col-xl-12 mt-3">
+                    <div class="card card-absolute  border border-secondary">
+                        <div class="card-header bg-primary" style="top: -46px;">
+                            <h4 class="text-white">  15 مـايو </h4>
+                        </div>
+                        <div class="card-body align-items-center justify-content-center text-center">
+                            <div class="widget-content">
+                                <div class="row">
+
+                                    <div class="table-responsive">
+                                        <table class="table display align-middle text-center table-hover rounded-pill" id="table2" data-order='[[ 0, "asc" ]]' data-page-length='10' ">
+
+                                            <thead>
+                                                <tr>
+                                                    <th class="text-center"> <i class="fas fa-signature"></i> المقبرة</th>
+                                                    <th class="text-center"><i class="fas fa-check-double"></i> الـقوة</th>
+                                                    <th class="text-center"><i class="fas fa-male"></i>  الـمتاح رجـال</th>
+                                                    <th class="text-center"><i class="fas fa-female"></i>  الـمتاح سيدات</th>
+
+                                                    <th class="text-center"><i class="fas fa-exclamation-circle"></i>  تاريخ أخــر دفـنه </th>
+                                                    <th class="text-center"><i class="fas fa-exclamation-circle"></i>    تاريخ أخــر دفـنه بالأيـام </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td class="text-center">مـقبرة 1</td>
+                                                    <td class="text-center"><h6><span class="badge rounded-pill badge-light-primary">3 غـرف</span></h6></td>
+                                                    <td class="text-center"><h6><span class="badge rounded-pill badge-light-success"> 1 أماكن</span></h6></td>
+                                                    <td class="text-center"><h6><span class="badge rounded-pill badge-light-success"> 2 أماكن</span></h6></td>
+
+                                                    <td class="text-center">
+                                                        <h6 class="mb-1"><span class="badge rounded-pill badge-light-warning">2023 / 12 / 28 </span></h6>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <h6 class="mb-1">
+                                                            <span class="badge rounded-pill badge-light-warning">
+                                                                @DateTime.Now.Day يـوم مضـي
+                                                            </span>
+                                                        </h6>
+                                                    </td>
+                                                    @*<span class="badge rounded-pill badge-success">*@
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center">مـقبرة 2</td>
+                                                    <td class="text-center"><h6><span class="badge rounded-pill badge-light-primary"> 6 غـرف</span></h6></td>
+                                                    <td class="text-center"> <h6><span class="badge rounded-pill badge-light-success"> 2 أماكن</span></h6></td>
+                                                    <td class="text-center"> <h6><span class="badge rounded-pill badge-light-success"> 5 أماكن</span></h6></td>
+
+
+                                                    <td class="text-center">
+                                                        <h6 class="mb-1"><span class="badge rounded-pill badge-light-warning">2023 / 11 / 17 </span></h6>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <h6 class="mb-1">
+                                                            <span class="badge rounded-pill badge-light-warning">
+                                                                @DateTime.Now.Day يـوم مضـي
+                                                            </span>
+                                                        </h6>
+                                                    </td>
+                                                    @*<span class="badge rounded-pill badge-success">*@
+                                                </tr>
+                                                <tr>
+                                                    <td class="text-center">أبـناء الـنوبه</td>
+                                                    <td class="text-center"><h6><span class="badge rounded-pill badge-light-primary"> 6 غـرف</span></h6></td>
+                                                    <td class="text-center"> <h6><span class="badge rounded-pill badge-light-success"> 3 أماكن</span></h6></td>
+                                                    <td class="text-center"> <h6><span class="badge rounded-pill badge-light-success"> 3 أماكن</span></h6></td>
+
+                                                    <td class="text-center">
+                                                        <h6 class="mb-1"><span class="badge rounded-pill badge-light-warning">2023 / 12 / 01 </span></h6>
+                                                    </td>
+                                                    <td class="text-center">
+                                                        <h6 class="mb-1">
+                                                            <span class="badge rounded-pill badge-light-warning">
+                                                                @DateTime.Now.Day يـوم مضـي
+                                                            </span>
+                                                        </h6>
+                                                    </td>
+                                                    @*<span class="badge rounded-pill badge-success">*@
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+<div class="modal fade" id="exampleModalfat5" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title align-items-center" id="exampleModalLabel2"> <img width="80" height="80" src="https://img.icons8.com/bubbles/80/paper-plane.png" alt="paper-plane" /> - إضـافه بيانات مـتوفي</h5>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="far fa-map-marker-alt font-primary"></i> <strong>أسـم الـمتوفي</strong></label>
+                            <input class="form-control btn-pill" type="text" placeholder="مثـلا : أحمد خـالد" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-globe-africa font-primary"></i> <strong>أسـم المنطقه </strong></label>
+                            <select class="form-select btn-pill" required="">
+                                <option selected="" disabled="" value="">إختـار  المنطقه ...</option>
+                                <option>الـجيزة</option>
+                                <option>الـقاهرة</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-globe-africa font-primary"></i> <strong>أسـم المقـبرة </strong></label>
+                            <select class="form-select btn-pill" required="">
+                                <option selected="" disabled="" value="">إختـار  المقـبرة ...</option>
+                                <option>جـاد</option>
+                                <option>شـلبي</option>
+                                <option>أبناء النـوبه</option>
+                            </select>
+                        </div>
+                    </div>
+                   
+                    @*    <div class="row">
+                            <div class="col">
+                            <label class="form-label" for="exampleFormControlInput5">
+                                <i class="fas fa-people-arrows font-primary"></i> <strong>الـحجم </strong>
+                                                                                  
+                                </label>
+                               
+                            </div>
+                       
+                        </div>*@
+
+                        @*<div class="row mt-3">
+                            <div class="col">
+                                <label class="d-block" for="edo-ani1">
+                                    <input class="radio_animated" id="edo-ani1" type="radio" name="rdo-ani">    فـردي
+                                </label>
+                            </div>
+                            <div class="col">
+                                <label class="d-block" for="edo-ani1">
+                                    <input class="radio_animated" id="edo-ani2" type="radio" name="rdo-ani">    زوجـي
+                                </label>
+                            </div>
+                        </div>*@
+                    
+
+                    <div class="modal-footer">
+                        <button class="btn btn-success rounded-pill widget-hover mt-3" style="transition: 1s;" type="submit"><strong>حـفـظ</strong> <i class="fas fa-location-arrow" style="font-size: 17px;"></i></button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,230 @@
+﻿@{
+    ViewData["Title"] = "KfalaaMembers";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="page-body">
+    <div class="row">
+
+        <div class="col-xxl-8 col-sm-12 box-col-12 mt-3">
+            <div class="row justify-content-center">
+                <div class="col-xxl-6 col-xl-5 box-col-12">
+                    <div class="card widget-1 rounded-pill border border-secondary">
+                        <div class="card-body align-items-center justify-content-center">
+                            <div class="widget-content align-items-center">
+                                <div class="widget-round Info text-white">
+                                    <div class="bg-round">
+                                        <img width="88" height="88" src="https://img.icons8.com/bubbles/88/gender-neutral-user.png" alt="gender-neutral-user" />
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>إضــافه حـاله</h5>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+               
+            </div>
+        </div>
+
+        <div class="col-sm-12 ">
+            <div class="card">
+            
+                <div class="card-body">
+                    <form class="f1" method="post"  asp-controller="SamplePage" asp-action="Page2">
+                        <div class="f1-steps">
+                            <div class="f1-progress">
+                                <div class="f1-progress-line" data-now-value="16.66" data-number-of-steps="3"></div>
+                            </div>
+                            <div class="f1-step active">
+                                <div class="f1-step-icon"><i class="fas fa-file-user" style="font-size: 20px;"></i></div>
+                                <p class="fw-bold">الـبيانات الـشخـصيه</p>
+                            </div>
+                            <div class="f1-step">
+                                <div class="f1-step-icon"><i class="fad fa-dollar-sign" style="font-size: 20px;"></i></div>
+                                <p class="fw-bold">الـبيانات الـماديه</p>
+                            </div>
+                            <div class="f1-step ">
+                                <div class="f1-step-icon"><i class="far fa-handshake" style="font-size: 16px;"></i></div>
+                                <p class="fw-bold">الـبيانات الإجتـماعيه</p>
+                            </div>
+                        </div>
+                        <fieldset>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-signature font-primary"></i> <strong>أسـم الـحالـه</strong></label>
+                                        <input class="form-control btn-pill" type="text" placeholder="مثـلا : أحمد السـيد" >
+                                    </div>
+                                  
+                                </div>
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-phone font-primary"></i> <strong>رقـم المحمـول</strong></label>
+                                        <input class="form-control btn-pill" type="text" placeholder="مثـلا : 01001155421">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-sort-numeric-up font-primary"></i> <strong>الـرقم الـقومي</strong></label>
+                                        <input class="form-control btn-pill" type="text" placeholder="مثـلا : 29102020202123">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="far fa-id-card font-primary"></i> <strong>السـن</strong></label>
+                                        <input class="form-control btn-pill" type="text" placeholder="مثـلا : 26" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-map-marker-alt font-primary"></i> <strong>الـعنوان</strong></label>
+                                        <input class="form-control btn-pill" type="text" placeholder="مثـلا : الـمعادي..">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-map-marked-alt font-primary"></i> <strong>المحافظـه</strong></label>
+                                        <input class="form-control btn-pill" type="text" placeholder="مثـلا : الـجيزة">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="f1-buttons">
+                                <button class="btn btn-primary btn-next rounded-pill widget-hover mt-3" style="transition: 1s;" type="button"><strong>التـالي</strong> <i class="fas fa-chevron-circle-left" style="font-size: 17px;"></i></button>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-dollar-sign font-primary"></i> <strong>نــوع الدخـل</strong></label>
+                                        <select class="form-select btn-pill" required="">
+                                            <option selected="" disabled="" value="">إختـار نـوع الـدخـل ...</option>
+                                            <option>مـوسمي</option>
+                                            <option>نـصف مـوسمي</option>
+                                        </select>
+                                        <div class="invalid-feedback">Please select a valid state.</div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-box-usd font-primary"></i> <strong>دخـل الـمعاش</strong></label>
+                                        <input class="form-control btn-pill" type="text" placeholder="مثـلا : 2000 ج.م">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-money-check-edit-alt font-primary"></i> <strong>قيـمه المـصدر الأخـر</strong></label>
+                                        <input class="form-control btn-pill" type="text" placeholder="مثـلا : 1400 ج.م">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-check-circle font-primary"></i> <strong>نـوع الإسـتـفـادة</strong></label>
+                                        <select class="form-select form-control btn-pill" required="">
+                                            <option selected="" disabled="" value=""> نـوع الإسـتـفـادة ...</option>
+                                            <option>نـقدي</option>
+                                            <option>عيـني</option>
+                                        </select>
+                                        <div class="invalid-feedback">Please select a valid state.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-money-bill-wave font-primary"></i> <strong>الـدخل الـشهري</strong></label>
+                                        <input class="form-control btn-pill" type="text" placeholder="مثـلا : 1200 ج.م">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-sack-dollar font-primary"></i> <strong>إجـمالي الدخـل</strong></label>
+                                        <input class="form-control btn-pill" type="email" placeholder="0" readonly>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="f1-buttons">
+                                <button class="btn btn-secondary btn-previous rounded-pill widget-hover mt-3" style="transition: 1s;" type="button"><i class="fas fa-chevron-circle-right" style="font-size: 17px;"> <strong>الـسابـق</strong> </i></button>
+                                <button class="btn btn-primary btn-next rounded-pill widget-hover mt-3" style="transition: 1s;" type="button"><strong>التـالي</strong> <i class="fas fa-chevron-circle-left" style="font-size: 17px;"></i></button>
+
+
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-share-alt-square font-primary"></i> <strong>الـحاله الإجتـماعيه</strong></label>
+                                        <select class="form-select form-control btn-pill" required="">
+                                            <option selected="" disabled="" value=""> الـحاله الإجتـماعيه ...</option>
+                                            <option>أعـزب</option>
+                                            <option>متـزوج</option>
+                                            <option>أرمـل</option>
+                                        </select>
+                                        <div class="invalid-feedback">هـذا الإختيـار خطأ..</div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-file-medical font-primary"></i> <strong>الـحاله الـصحيه</strong></label>
+                                        <select class="form-select form-control btn-pill" required="">
+                                            <option selected="" disabled="" value=""> الـحاله الـصحيه ...</option>
+                                            <option>جـيدة</option>
+                                            <option>متـوسط</option>
+                                            <option>مـريـض</option>
+                                        </select>
+                                        <div class="invalid-feedback">Please select a valid state.</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-male font-primary"></i> <strong>عدد الأولاد</strong></label>
+                                        <input class="form-control btn-pill" type="text" placeholder="مثـلا : 3 أولاد" required>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-female font-primary"></i> <strong>عدد البـنات</strong></label>
+                                        <input class="form-control btn-pill border border-black" id="exampleFormControlInput5" type="text" placeholder="مثـلا : 2 بنـات" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                    <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-file-pdf font-primary"></i> <strong>مـلفات الحـاله</strong></label>
+                                    <input class="form-control btn-pill border border-black" id="exampleFormControlInput5" type="file" required>
+                                </div>
+                            </div>
+                            <div class="f1-buttons">
+                                <button class="btn btn-secondary btn-previous rounded-pill widget-hover mt-3" style="transition: 1s;" type="button"><strong>الـسابـق</strong> <i class="fas fa-chevron-circle-right" style="font-size: 17px;"></i></button>
+                                <button class="btn btn-success rounded-pill widget-hover mt-3" style="transition: 1s;" type="submit"><strong >حـفـظ</strong> <i class="fas fa-user-plus" style="font-size: 17px;"></i></button>
+                            </div>
+                         
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+

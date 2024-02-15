@@ -1,0 +1,455 @@
+﻿@{
+    ViewData["Title"] = "Page 2";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="page-body">
+    <!-- Container-fluid starts-->
+    <div class="container-fluid">
+        <div class="page-title">
+            <div class="row">
+                <div class="col-6">
+                </div>
+                <div class="col-6">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><button class="btn btn-pill btn btn-primary" type="button" title="btn btn-pill btn-success" data-bs-toggle="modal" data-bs-target="#exampleModalfat" data-whatever="@Html.Raw("@mdo")">  <i class="fas fa-plus-circle"></i> <strong>إضـافه مـشترك</strong></button></li>
+
+                        <li class="breadcrumb-item">
+                            <a asp-controller="SamplePage" asp-action="Page2">
+                                <svg class="stroke-icon">
+                                    <use href="../assets/svg/icon-sprite.svg#stroke-home"></use>
+                                </svg>
+                            </a>
+                        </li>
+
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="col-xxl-8 col-sm-12 box-col-12 mt-5">
+            <div class="row">
+
+                <div class="col-xxl-6 col-xl-6 box-col-12">
+                    <div class="card widget-1">
+                        <div class="card-body align-items-center">
+                            <div class="widget-content">
+                                <div class="bg-round">
+                                        <img width="70" height="70" src="https://img.icons8.com/dusk/70/people-working-together.png" alt="people-working-together" />
+                                </div>
+                                
+                                <div>
+                                    <h5>عــدد الأعـضاء</h5>
+                                </div>
+                            </div>
+                            <div class="font-Info"><h5 class="mb-1">126</h5></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 box-col-12">
+                    <div class="card widget-1 ">
+                        <div class="card-body align-items-center">
+                            <div class="widget-content">
+
+                                <div class="bg-round">
+                                    <img width="70" height="70" src="https://img.icons8.com/bubbles/70/cash-in-hand.png" alt="cash-in-hand" />
+                                </div>
+
+                                <div>
+                                    <h5> إجـمالي الإشـتـراكـات</h5>
+                                </div>
+                            </div>
+                            <div class="font-Info"><h5 class="mb-1">22,678 ج.م </h5></div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-sm-12">
+                <div class="card ">
+                    <div class="card-header p-3">
+                        <h3 class="light-card balance-card widget-hover border border-secondary-subtle w-50 mx-auto d-flex justify-content-center border border-secondary rounded-pill bg-primary">
+                            <i class="fas fa-user-friends" style="font-size:30px;"></i>  إجمالي الأعـضاء
+
+                        </h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table display align-middle text-center table-hover rounded-pill" id="table" data-order='[[ 0, "asc" ]]' data-page-length='10'>
+
+                                <thead>
+                                    <tr>
+                                        <th class="text-center"><i class="fas fa-sort-numeric-down"></i> رقـم العضويه</th>
+                                        <th class="text-center"> <i class="fas fa-signature"></i> الأســم</th>
+                                        <th class="text-center"><i class="fas fa-calendar-week"></i> تاريـخ الإشـتراك</th>
+                                        <th class="text-center"><i class="fas fa-exclamation-circle"></i> فـعل </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">256</td>
+                                        <td class="text-center">إبراهـيم عبد اللطـيف</td>
+                                        <td class="text-center"><h6><span class="badge rounded-pill badge-light-warning"> 03 / 02 / 2005</span></h6></td>
+                                        <td class="text-center">
+                                            <button class="btn btn-pill btn-primary widget-hover mt-3" type="button" title="btn btn-pill btn-primary" data-bs-toggle="modal" data-bs-target=".bd-example2-modal-lg" style="transition: 1s;"> تـفاصيل <i class="fas fa-info"></i></button>
+                                            <button class="btn btn-pill btn-warning widget-hover mt-3" type="button" title="btn btn-pill btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModalfat2" data-whatever="@Html.Raw("@mdo")" style="transition: 1s;">تـعديل <i class="far fa-file-edit"></i></button>
+                                            <button class="btn btn-pill btn-success widget-hover mt-3" type="button" title="btn btn-pill btn-success" data-bs-toggle="modal" data-bs-target="#exampleModalfat3" data-whatever="@Html.Raw("@mdo")" style="transition: 1s;">تـجديد الإشتراك <i class="fas fa-plus-circle"></i></button>
+                                        </td>
+                                        @*<span class="badge rounded-pill badge-success">*@
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">257</td>
+                                        <td class="text-center">عمر عبد اللطـيف</td>
+                                        <td class="text-center"> <h6><span class="badge rounded-pill badge-light-warning"> 23 / 05 / 2011</span></h6></td>
+                                        <td class="text-center">
+                                            <button class="btn btn-pill btn-primary widget-hover mt-3" type="button" title="btn btn-pill btn-primary" style="transition: 1s;"> تـفاصيل <i class="fas fa-info"></i></button>
+                                            <button class="btn btn-pill btn-warning widget-hover mt-3" type="button" title="btn btn-pill btn-warning" style="transition: 1s;">تـعديل <i class="far fa-file-edit"></i></button>
+                                            <button class="btn btn-pill btn-success widget-hover mt-3" type="button" title="btn btn-pill btn-success" data-bs-toggle="modal" data-bs-target="#exampleModalfat3" data-whatever="@Html.Raw("@mdo")" style="transition: 1s;">تـجديد الإشتراك <i class="fas fa-plus-circle"></i></button>
+
+
+                                        </td>
+                                        @*<span class="badge rounded-pill badge-success">*@
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+</div>
+
+
+
+<div class="modal fade" id="exampleModalfat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title align-items-center" id="exampleModalLabel2">  <img width="80" height="80" src="https://img.icons8.com/bubbles/80/add-user-male.png" alt="add-user-male" /> - إضـافه مشتـرك جديد</h5>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-signature"></i> <strong>أسـم المشـرك</strong></label>
+                            <input class="form-control btn-pill" type="text" placeholder="مثـلا : أحمد السـيد" required>
+                        </div>
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-map-marked-alt"></i> <strong>الـعنوان</strong></label>
+                            <input class="form-control btn-pill" type="text" placeholder="مثـلا : وسـط البلد" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-phone"></i> <strong> رقـم التليفون</strong></label>
+                            <input class="form-control btn-pill" type="text" placeholder="مثـلا : 01002554856" required>
+                        </div>
+                        <div class="row">
+                            <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-sack-dollar"></i> <strong>قيمه الإشـتراك</strong></label>
+                                <input class="form-control btn-pill" type="text" placeholder="مثـلا : 800 ج.م" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fal fa-sort-numeric-up-alt"></i> <strong> رقـم الإيـصال</strong></label>
+                            <input class="form-control btn-pill" type="text" placeholder="مثـلا : 254998" required>
+                        </div>
+                        
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="btn btn-success rounded-pill widget-hover mt-3" style="transition: 1s;" type="submit"><strong>حـفـظ</strong> <i class="fas fa-location-arrow" style="font-size: 17px;"></i></button>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="exampleModalfat2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title align-items-center" id="exampleModalLabel2">  <img width="80" height="80" src="https://img.icons8.com/bubbles/80/user-male.png" alt="user-male" /> - تـعديل مشتـرك حـالي</h5>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-signature"></i> <strong>أسـم المشـرك</strong></label>
+                            <input class="form-control btn-pill" type="text" placeholder=" إبراهيم عبد اللطيف" required>
+                        </div>
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-map-marked-alt"></i> <strong>الـعنوان</strong></label>
+                            <input class="form-control btn-pill" type="text" placeholder=" وسـط البلد" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-phone"></i> <strong> رقـم التليفون</strong></label>
+                            <input class="form-control btn-pill" type="text" placeholder=" 01002554856" required>
+                        </div>
+                        <div class="row">
+                            <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-sack-dollar"></i> <strong>قيمه الإشـتراك</strong></label>
+                                <input class="form-control btn-pill" type="text" placeholder=" 800 ج.م" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fal fa-sort-numeric-up-alt"></i> <strong> رقـم الإيـصال</strong></label>
+                            <input class="form-control btn-pill" type="text" placeholder=" 254998" required>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="btn btn-pill btn-danger widget-hover mt-3" type="button" title="btn btn-pill btn-danger" style="transition: 1s;">حـذف <i class="fas fa-user-times"></i></button>
+                        <button class="btn btn-success rounded-pill widget-hover mt-3" style="transition: 1s;" type="submit"><strong>حـفـظ</strong> <i class="fas fa-location-arrow" style="font-size: 17px;"></i></button>
+
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="exampleModalfat3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title align-items-center" id="exampleModalLabel2">  <img width="80" height="80" src="https://img.icons8.com/bubbles/80/user-male.png" alt="user-male" /> - تـجديد الإشـتراك  </h5>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-signature"></i> <strong>رقـم العضـويه</strong></label>
+                            <input class="form-control btn-pill" type="text" placeholder=" 256" readonly>
+                        </div>
+                       
+                    </div>
+                    
+                    <div class="row">
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-sack-dollar"></i> <strong>قيمه الإشـتراك</strong></label>
+                            <input class="form-control btn-pill" type="text" placeholder="مثلا : 800 ج.م" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fal fa-sort-numeric-up-alt"></i> <strong> رقـم الإيـصال</strong></label>
+                            <input class="form-control btn-pill" type="text" placeholder="مثلا : 254998" required>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="btn btn-success rounded-pill widget-hover mt-3" style="transition: 1s;" type="submit"><strong>تـجديد</strong> <i class="fas fa-location-arrow" style="font-size: 17px;"></i></button>
+
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="modal fade bd-example2-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myLargeModalLabel"> <img width="80" height="80" src="https://img.icons8.com/bubbles/80/document.png" alt="document" /> تفـاصيل بيـانات العـضو </h4>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="card-body">
+                    <div class="col-xl-12 xl-100 col-lg-12 box-col-12">
+                        <div class="card">
+
+                            <div class="card-body mt-5">
+                                <div class="tabbed-card mt-4">
+                                    <ul class="pull-right nav nav-tabs border-tab nav-primary" id="top-tab2" role="tablist">
+                                        <li class="nav-item"><a class="nav-link active" id="top-home-tab2" data-bs-toggle="tab" href="#top-home2" role="tab" aria-controls="top-home" aria-selected="false"><i class="fas fa-file-user" style="font-size: 20px;"></i> بيانات شخصيه</a></li>
+                                        <li class="nav-item"><a class="nav-link" id="profile-top-tab2" data-bs-toggle="tab" href="#top-profile2" role="tab" aria-controls="top-profile2" aria-selected="true"><i class="fad fa-dollar-sign" style="font-size: 20px;"></i>  الإشـتراكات السابقه</a></li>
+                                        <li class="nav-item"><a class="nav-link" id="files-top-tab2" data-bs-toggle="tab" href="#top-files2" role="tab" aria-controls="top-files2" aria-selected="false"><i class="fas fa-images"></i> ملفات صوريه </a></li>
+
+                                    </ul>
+                                    <div class="tab-content" id="top-tabContent2">
+
+                                        <div class="tab-pane fade active show" id="top-home2" role="tabpanel" aria-labelledby="top-home-tab">
+                                            <div class="row mt-3">
+                                                <div class="col">
+                                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-signature"></i> <strong>أسـم المشـرك</strong></label>
+                                                        <input class="form-control btn-pill" type="text" placeholder=" إبراهيم عبد اللطيف" readonly>
+                                                    </div>
+                                                    
+
+                                                </div>
+                                                <div class="col">
+                                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-map-marked-alt"></i> <strong>الـعنوان</strong></label>
+                                                        <input class="form-control btn-pill" type="text" placeholder="  15 شارع الجمهوريه إمـبابه" readonly>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col">
+                                                    <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                                        <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-phone"></i> <strong> رقـم التليفون</strong></label>
+                                                        <input class="form-control btn-pill" type="text" placeholder=" 01002554856" readonly>
+                                                    </div>
+                                                 
+                                                </div>
+                                                <div class="col">
+                                                    <div class="row">
+                                                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                                            <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-sack-dollar"></i> <strong>قيمه الإشـتراك</strong></label>
+                                                            <input class="form-control btn-pill" type="text" placeholder=" 800 ج.م" readonly>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="tab-pane fade" id="top-profile2" role="tabpanel" aria-labelledby="profile-top-tab">
+                                            <div class="row">
+
+                                                <div class="table-responsive">
+                                                    <table class="table display align-middle text-center table-hover border border-secondary-subtle" id="table2" data-order='[[ 0, "asc" ]]' data-page-length='10'>
+
+                                                        <thead>
+                                                            <tr>
+                                                                <th class="text-center"> <i class="fas fa-sort-numeric-up font-primary"></i> رقـم الإيـصال</th>
+                                                                <th class="text-center"><i class="fas fa-calendar-week font-primary"></i> تاريـخ الـدفع</th>
+                                                                <th class="text-center"><i class="fas fa-dollar-sign font-success"></i> الـمبلغ </th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="text-center">296584</td>
+                                                                <td class="text-center"><h6><span class="badge rounded-pill badge-light-primary"> 03 / 02 / 2022</span></h6></td>
+                                                                <td class="text-center"><h6><span class="badge rounded-pill badge-light-success"> 120 ج.م</span></h6></td>
+                                                                @*<span class="badge rounded-pill badge-success">*@
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-center">587496</td>
+                                                                <td class="text-center"><h6><span class="badge rounded-pill badge-light-primary"> 15 / 05 / 2023</span></h6></td>
+                                                                <td class="text-center"><h6><span class="badge rounded-pill badge-light-success"> 120 ج.م</span></h6></td>
+
+                                                                @*<span class="badge rounded-pill badge-success">*@
+                                                            </tr>
+
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+
+
+                                            </div>
+                                            
+
+                                        </div>
+                                        
+                                        <div class="tab-pane fade" id="top-files2" role="tabpanel" aria-labelledby="top-home-tab">
+                                            <div class="card">
+
+                                                <div class="card-body">
+                                                    <div class="row gallery my-gallery" id="aniimated-thumbnials" itemscope="">
+                                                        <figure class="reveal col-xl-3 col-sm-6" itemprop="associatedMedia" itemscope="">
+                                                            <a href="~/assets/images/big-lightgallry/01.jpg" itemprop="contentUrl" data-size="1600x950"><img class="img-thumbnail" src="~/assets/images/lightgallry/01.jpg" itemprop="thumbnail" alt="Image description"></a>
+                                                            <figcaption itemprop="caption description">Image caption  1</figcaption>
+                                                        </figure>
+                                                        <figure class="reveal col-xl-3 col-sm-6" itemprop="associatedMedia" itemscope="">
+                                                            <a href="~/assets/images/big-lightgallry/02.jpg" itemprop="contentUrl" data-size="1600x950"><img class="img-thumbnail" src="~/assets/images/lightgallry/02.jpg" itemprop="thumbnail" alt="Image description"></a>
+                                                            <figcaption itemprop="caption description">Image caption  2</figcaption>
+                                                        </figure>
+                                                        <figure class="reveal col-xl-3 col-sm-6" itemprop="associatedMedia" itemscope="">
+                                                            <a href="~/assets/images/big-lightgallry/03.jpg" itemprop="contentUrl" data-size="1600x950"><img class="img-thumbnail" src="~/assets/images/lightgallry/03.jpg" itemprop="thumbnail" alt="Image description"></a>
+                                                            <figcaption itemprop="caption description">Image caption  3</figcaption>
+                                                        </figure>
+                                                        <figure class="reveal col-xl-3 col-sm-6" itemprop="associatedMedia" itemscope="">
+                                                            <a href="~/assets/images/big-lightgallry/04.jpg" itemprop="contentUrl" data-size="1600x950"><img class="img-thumbnail" src="~/assets/images/lightgallry/04.jpg" itemprop="thumbnail" alt="Image description"></a>
+                                                            <figcaption itemprop="caption description">Image caption  4</figcaption>
+                                                        </figure>
+
+                                                    </div>
+                                                    <!-- Root element of PhotoSwipe. Must have class pswp.-->
+                                                    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+                                                        <!--
+                                                        Background of PhotoSwipe.
+                                                        It's a separate element, as animating opacity is faster than rgba().
+                                                        -->
+                                                        <div class="pswp__bg"></div>
+                                                        <!-- Slides wrapper with overflow:hidden.-->
+                                                        <div class="pswp__scroll-wrap">
+                                                            <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory.-->
+                                                            <!-- don't modify these 3 pswp__item elements, data is added later on.-->
+                                                            <div class="pswp__container">
+                                                                <div class="pswp__item"></div>
+                                                                <div class="pswp__item"></div>
+                                                                <div class="pswp__item"></div>
+                                                            </div>
+                                                            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed.-->
+                                                            <div class="pswp__ui pswp__ui--hidden">
+                                                                <div class="pswp__top-bar">
+                                                                    <!-- Controls are self-explanatory. Order can be changed.-->
+                                                                    <div class="pswp__counter"></div>
+                                                                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                                                                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                                                                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                                                                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                                                                    <!-- Preloader demo https://codepen.io/dimsemenov/pen/yyBWoR-->
+                                                                    <!-- element will get class pswp__preloader--active when preloader is running-->
+                                                                    <div class="pswp__preloader">
+                                                                        <div class="pswp__preloader__icn">
+                                                                            <div class="pswp__preloader__cut">
+                                                                                <div class="pswp__preloader__donut"></div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                                                                    <div class="pswp__share-tooltip"></div>
+                                                                </div>
+                                                                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                                                                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                                                                <div class="pswp__caption">
+                                                                    <div class="pswp__caption__center"></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

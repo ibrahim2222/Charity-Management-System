@@ -1,0 +1,121 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Cuba_Staterkit
+build_property.RootNamespace = Cuba_Staterkit
+build_property.ProjectDir = C:\Users\ibrah\OneDrive\Desktop\ASP Core Dashboards\asnet-core cube\staterkit\Cuba Staterkit\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ibrah\OneDrive\Desktop\ASP Core Dashboards\asnet-core cube\staterkit\Cuba Staterkit
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Authentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Dashboardy/Maain.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFzaGJvYXJkeVxNYWFpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Kfalaa/KfalaaMembers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2ZhbGFhXEtmYWxhYU1lbWJlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Kfalaa/Motbr3eenMembers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2ZhbGFhXE1vdGJyM2Vlbk1lbWJlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/MQaber/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVFhYmVyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/MQaber/ManteQa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVFhYmVyXE1hbnRlUWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/MQaber/MQbraa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVFhYmVyXE1RYnJhYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/MQaber/TfaseelMQbraa.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTVFhYmVyXFRmYXNlZWxNUWJyYWEuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Reports/KaflalaaReports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xLYWZsYWxhYVJlcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Reports/MQaberReports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0c1xNUWFiZXJSZXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/SamplePage/Page1.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FtcGxlUGFnZVxQYWdlMS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/SamplePage/Page2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FtcGxlUGFnZVxQYWdlMi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Shared/_Footer.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Gb290ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Shared/_Loader.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2FkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Shared/_Script.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TY3JpcHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Shared/_SidePenal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaWRlUGVuYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Shared/_SimpleLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaW1wbGVMYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Shared/_Style.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdHlsZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Subscribe/CustomSMSSend.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaWJlXEN1c3RvbVNNU1NlbmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Subscribe/SMSSubscribers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaWJlXFNNU1N1YnNjcmliZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Subscribe/TotalMembers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3Vic2NyaWJlXFRvdGFsTWVtYmVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ibrah/OneDrive/Desktop/ASP Core Dashboards/asnet-core cube/staterkit/Cuba Staterkit/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-v2wb7cnvtg

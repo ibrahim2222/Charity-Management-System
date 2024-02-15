@@ -1,0 +1,330 @@
+﻿
+@{
+    ViewData["Title"] = "Motbr3eenMembers";
+}
+
+<div class="page-body">
+    <!-- Container-fluid starts-->
+    <div class="container-fluid">
+        <div class="page-title">
+            <div class="row">
+                <div class="col-6">
+                    <h3></h3>
+                </div>
+                <div class="col-6">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><button class="btn btn-pill btn btn-primary" type="button" title="btn btn-pill btn-success" data-bs-toggle="modal" data-bs-target="#exampleModalfat" data-whatever="@Html.Raw("@mdo")">  <i class="fas fa-plus-circle"></i> <strong>إضـافه متبرع</strong></button></li>
+
+                        <li class="breadcrumb-item">
+                            <a asp-controller="SamplePage" asp-action="Page2">
+                                <svg class="stroke-icon">
+                                    <use href="../assets/svg/icon-sprite.svg#stroke-home"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        
+                    </ol>
+                </div>
+            </div>
+        </div>
+        <div class="col-xxl-8 col-sm-12 box-col-12">
+            <div class="row">
+                <div class="col-xxl-6 col-xl-6 box-col-12">
+                    <div class="card widget-1 rounded-pill border border-secondary">
+                        <div class="card-body align-items-center">
+                            <div class="widget-content">
+                                <div class="widget-round Info text-white">
+                                    <div class="bg-round">
+                                        <img width="64" height="64" src="https://img.icons8.com/doodle/64/conference-call.png" alt="conference-call" />
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <h5>عـدد المتبـرعين</h5>
+                                </div>
+                            </div>
+                            <div class="font-Info"><h5 class="mb-1">112</h5></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-6 col-xl-6 box-col-12">
+                    <div class="card widget-1 rounded-pill border border-secondary">
+                        <div class="card-body align-items-center">
+                            <div class="widget-content">
+                                <div class="widget-round Info text-white">
+                                 
+                                    <div class="bg-round">
+                                        <img width="64" height="64" src="https://img.icons8.com/dusk/64/donation.png" alt="donation" />
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>إجمـالي التـبرعات</h5>
+                                </div>
+                            </div>
+                            <div class="font-Info"><h5 class="mb-1">22,678   ج.م</h5></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <div class="card ">
+                <div class="card-header p-3">
+                    <h3 class="light-card balance-card widget-hover border border-secondary-subtle w-50 mx-auto d-flex justify-content-center border border-secondary rounded-pill bg-primary">
+                        <i class="fad fa-users" style="font-size:30px;"></i>  المتبـرعين
+
+                    </h3>
+                </div>
+                <div class="card-body">
+                    <div class="table-responsive">
+                        <table class="table display align-middle text-center table-hover rounded-pill" id="table" data-order='[[ 0, "asc" ]]' data-page-length='10'>
+
+                            <thead>
+                                <tr>
+                                    <th class="text-center"> <i class="fas fa-signature"></i> الأسـم</th>
+                                    <th class="text-center"><i class="fas fa-phone-alt"></i> رقـم التليـفون</th>
+                                    <th class="text-center"><i class="fas fa-calendar-week"></i> تاريـخ التسـجيل</th>
+                                    <th class="text-center"><i class="fas fa-exclamation-circle"></i> فـعل </th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="text-center">إبراهـيم عبد اللطـيف</td>
+                                    <td class="text-center">01002154202</td>
+                                    <td class="text-center"><h6><span class="badge rounded-pill badge-light-primary"> 03 / 02 / 1997</span></h6></td>
+                                    <td class="text-center">
+                                        <button class="btn btn-pill btn-success widget-hover mt-3" type="button" title="btn btn-pill btn-success" style="transition: 1s;" data-bs-toggle="modal" data-bs-target="#exampleModalfat3" data-whatever="@Html.Raw("@mdo")">تـبرع <i class="fas fa-usd-circle "></i></button>
+                                        <button class="btn btn-pill btn-primary widget-hover mt-3" type="button" title="btn btn-pill btn-primary" style="transition: 1s;" data-bs-toggle="modal" data-bs-target=".bd-example-modal-lg"> تـفاصيل <i class="fas fa-info"></i></button>
+                                        <button class="btn btn-pill btn-warning widget-hover mt-3" type="button" title="btn btn-pill btn-warning" style="transition: 1s;" data-bs-toggle="modal" data-bs-target="#exampleModalfat2" data-whatever="@Html.Raw("@mdo")">تـعديل <i class="far fa-file-edit"></i></button>
+
+                                    </td>
+                                    @*<span class="badge rounded-pill badge-success">*@
+                                </tr>
+                                <tr>
+                                    <td class="text-center">عمر عبد اللطـيف</td>
+                                    <td class="text-center">01067415268</td>
+                                    <td class="text-center"> <h6><span class="badge rounded-pill badge-light-primary"> 23 / 05 / 1994</span></h6></td>
+                                    <td class="text-center">
+                                        <button class="btn btn-pill btn-success widget-hover mt-3" type="button" title="btn btn-pill btn-success" style="transition: 1s;" data-bs-toggle="modal" data-bs-target="#exampleModalfat3" data-whatever="@Html.Raw("@mdo")">تـبرع <i class="fas fa-usd-circle "></i></button>
+                                        <button class="btn btn-pill btn-primary widget-hover mt-3" type="button" title="btn btn-pill btn-primary " style="transition: 1s;"> تـفاصيل <i class="fas fa-info"></i></button>
+                                        <button class="btn btn-pill btn-warning widget-hover mt-3" type="button" title="btn btn-pill btn-warning " style="transition: 1s;">تـعديل <i class="far fa-file-edit"></i></button>
+                                    </td>
+                                    @*<span class="badge rounded-pill badge-success">*@
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for Add Motbr3een-->
+        <div class="modal fade" id="exampleModalfat" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title align-items-center" id="exampleModalLabel2"> <img width="64" height="64" src="https://img.icons8.com/dusk/64/community-grants.png" alt="community-grants" /> - إضـافه متبرع</h5>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row">                         
+                                <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                    <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-signature font-primary"></i> <strong>أسـم المتبرع</strong></label>
+                                    <input class="form-control btn-pill" type="text" placeholder="مثـلا : أحمد السـيد" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                    <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-phone font-primary"></i> <strong>رقـم المحمـول</strong></label>
+                                    <input class="form-control btn-pill" type="text" placeholder="مثـلا : 01001155421" required>
+                                </div>
+                            </div>
+                              <div class="row">
+                                <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                    <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-calendar-week font-primary"></i> <strong>إختـار  الـمدة</strong></label>
+                                    <select class="form-select btn-pill" required="">
+                                        <option selected="" disabled="" value="">إختـار  الـمدة ...</option>
+                                        <option>شـهري</option>
+                                        <option>مـوسمي</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                    <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-calendar-week font-primary"></i> <strong>إلي جهه</strong></label>
+                                    <select class="form-select btn-pill" required="">
+                                        <option selected="" disabled="" value="">إختـار  الجهه ...</option>
+                                        <option>مقابر</option>
+                                        <option>كفاله</option>
+                                        <option>أخري</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                    <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-dollar-sign font-primary"></i> <strong>الـمبلغ</strong></label>
+                                    <input class="form-control btn-pill" type="text" placeholder="مثـلا : 800 ج.م" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                    <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-sort-numeric-up font-primary"></i> <strong>رقـم الإيصـال</strong></label>
+                                    <input class="form-control btn-pill" type="text" placeholder="مثـلا : 254759" required>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-success rounded-pill widget-hover mt-3" style="transition: 1s;" type="submit"><strong>حـفـظ</strong> <i class="fas fa-user-plus" style="font-size: 17px;"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+        <!-- Modal for Edit Mobr3een-->
+        <div class="modal fade" id="exampleModalfat2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title align-items-center" id="exampleModalLabel2"> <img width="64" height="64" src="https://img.icons8.com/dusk/64/edit-property.png" alt="edit-property" /> - تـعديل بيـانات متبرع</h5>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row">
+                                <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                    <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-signature font-primary"></i> <strong>أسـم المتبرع</strong></label>
+                                    <input class="form-control btn-pill" type="text" placeholder="مثـلا : أحمد السـيد" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                    <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-phone font-primary"></i> <strong>رقـم المحمـول</strong></label>
+                                    <input class="form-control btn-pill" type="text" placeholder="مثـلا : 01001155421" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                    <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-calendar-week font-primary"></i> <strong>إختـار  الـمدة</strong></label>
+                                    <select class="form-select btn-pill" required="">
+                                        <option selected="" disabled="" value="">إختـار  الـمدة ...</option>
+                                        <option>شـهري</option>
+                                        <option>مـوسمي</option>
+                                        <option>نـصف مـوسمي</option>
+                                    </select>
+                                </div>
+                            </div>
+                          
+                        
+                            <div class="modal-footer">
+                                <button class="btn btn-danger rounded-pill widget-hover mt-3" style="transition: 1s;" type="submit"><strong>حـذف</strong> <i class="fas fa-user-times" style="font-size: 17px;"></i></button>
+                                <button class="btn btn-warning rounded-pill widget-hover mt-3" style="transition: 1s;" type="submit"><strong>تـعديل</strong> <i class="fas fa-user-plus" style="font-size: 17px;"></i></button>
+
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal for History Tbro3aat-->
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="myLargeModalLabel"> <img width="64" height="64" src="https://img.icons8.com/dusk/64/donate.png" alt="donate" /> تـفاصيل الـتبرع </h4>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table display align-middle text-center table-hover border border-secondary-subtle" id="table" data-order='[[ 0, "asc" ]]' data-page-length='10'>
+
+                                    <thead>
+                                        <tr>
+                                            <th class="text-center"> <i class="fas fa-sort-numeric-up font-primary"></i> رقـم الإيـصال</th>
+                                            <th class="text-center"><i class="fas fa-calendar-week font-primary"></i> تاريـخ الـدفع</th>
+                                            <th class="text-center"><i class="far fa-sticky-note"></i> ملاحظات</th>
+                                            <th class="text-center"><i class="fas fa-dollar-sign font-success"></i> الـمبلغ </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center">296584</td>
+                                            <td class="text-center"><h6><span class="badge rounded-pill badge-light-primary"> 03 / 02 / 1997</span></h6></td>
+                                            <td class="text-center">زكاه مال</td>
+                                            <td class="text-center"><h6><span class="badge rounded-pill badge-light-success"> 1500 ج.م</span></h6></td>
+                                            @*<span class="badge rounded-pill badge-success">*@
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">587496</td>
+                                            <td class="text-center"><h6><span class="badge rounded-pill badge-light-primary"> 15 / 05 / 2023</span></h6></td>
+                                            <td class="text-center">صدقه</td>
+                                            <td class="text-center"><h6><span class="badge rounded-pill badge-light-success"> 2600 ج.م</span></h6></td>
+                                          
+                                            @*<span class="badge rounded-pill badge-success">*@
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for Add Tbro3aat-->
+        <div class="modal fade" id="exampleModalfat3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title align-items-center" id="exampleModalLabel2"> <img width="64" height="64" src="https://img.icons8.com/external-filled-outline-02-chattapat-/64/external-care-money-filled-outline-02-chattapat-.png" alt="external-care-money-filled-outline-02-chattapat-" /> - إضـافه تبرع</h5>
+                        <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+
+                            <div class="row">
+                                <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                    <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-sort-numeric-up font-primary"></i> <strong>رقـم الإيصـال</strong></label>
+                                    <input class="form-control btn-pill" type="text" placeholder="مثـلا : 254759" required>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                    <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-dollar-sign font-primary"></i> <strong>الـمبلغ</strong></label>
+                                    <input class="form-control btn-pill" type="text" placeholder="مثـلا : 800 ج.م" required>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                                    <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-calendar-week font-primary"></i> <strong>إلي جهه</strong></label>
+                                    <select class="form-select btn-pill" required="">
+                                        <option selected="" disabled="" value="">إختـار  الجهه ...</option>
+                                        <option>مقابر</option>
+                                        <option>كفاله</option>
+                                        <option>أخري</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-success rounded-pill widget-hover mt-3" style="transition: 1s;" type="submit"> <strong>تـبرع</strong> <i class="fas fa-sack-dollar" style="font-size: 17px;"></i></button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <!-- Container-fluid Ends-->
+</div>
+

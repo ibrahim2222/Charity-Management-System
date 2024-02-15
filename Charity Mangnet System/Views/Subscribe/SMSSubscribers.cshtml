@@ -1,0 +1,200 @@
+﻿
+<div class="page-body">
+    <!-- Container-fluid starts-->
+    <div class="container-fluid">
+        
+        <div class="col-xxl-8 col-sm-12 box-col-12 mt-5">
+            <div class="row">
+
+                <div class="col-xxl-6 col-xl-6 box-col-12">
+                    <div class="card widget-1">
+                        <div class="card-body align-items-center">
+                            <div class="widget-content">
+                                <div class="bg-round">
+                                    <img width="70" height="70" src="https://img.icons8.com/dusk/70/sms.png" alt="sms" />
+                                </div>
+
+                                <div>
+                                    <h5>عــدد الـمشتركين بالخدمه</h5>
+                                </div>
+                            </div>
+                            <div class="font-Info"><h5 class="mb-1">75</h5></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-xl-6 box-col-12">
+                    <div class="card widget-1 ">
+                        <div class="card-body align-items-center">
+                            <div class="widget-content">
+
+                                <div class="bg-round">
+                                    <img width="70" height="70" src="https://img.icons8.com/dusk/70/us-dollar-circled--v1.png" alt="us-dollar-circled--v1" />
+                                </div>
+
+                                <div>
+                                    <h5> إجـمالي قيمه الإشـتـراكـات</h5>
+                                </div>
+                            </div>
+                            <div class="font-Info"><h5 class="mb-1">2400 ج.م </h5></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-sm-12">
+                <div class="card ">
+                    <div class="card-header p-3">
+                        <h3 class="light-card balance-card widget-hover border border-secondary-subtle w-50 mx-auto d-flex justify-content-center border border-secondary rounded-pill bg-primary">
+                            <i class="fas fa-user-friends" style="font-size:30px;"></i>  إجمالي الـمشتركين
+
+                        </h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table display align-middle text-center table-hover rounded-pill" id="table" data-order='[[ 0, "asc" ]]' data-page-length='10'>
+
+                                <thead>
+                                    <tr>
+                                        <th class="text-center"><i class="fas fa-sort-numeric-down"></i> رقـم العضويه</th>
+                                        <th class="text-center"> <i class="fas fa-signature"></i> الأســم</th>
+                                        <th class="text-center"><i class="fas fa-calendar-week"></i> رقـم الـتليفون</th>
+                                        <th class="text-center"><i class="fas fa-calendar-week"></i> حـاله الإشتراك </th>
+                                        <th class="text-center"><i class="fas fa-exclamation-circle"></i> فـعل </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="text-center">256</td>
+                                        <td class="text-center">إبراهـيم عبد اللطـيف</td>
+                                        <td class="text-center">01002154202</td>
+                                        <td class="text-center"><h6><span class="badge rounded-pill badge-light-success"> فـعال</span></h6></td>
+                                        <td class="text-center">
+                                            <button class="btn btn-pill btn-primary widget-hover mt-3" type="button" title="btn btn-pill btn-primary" data-bs-toggle="modal" data-bs-target=".bd-example2-modal-lg" style="transition: 1s;"> تـفاصيل <i class="fas fa-info"></i></button>
+                                            <button class="btn btn-pill btn-success widget-hover mt-3" type="button" title="btn btn-pill btn-success" data-bs-toggle="modal" data-bs-target="#exampleModalfat3" data-whatever="@Html.Raw("@mdo")" style="transition: 1s;"> الإشتراك <i class="fas fa-plus-circle"></i></button>
+                                        </td>
+                                        @*<span class="badge rounded-pill badge-success">*@
+                                    </tr>
+                                    <tr>
+                                        <td class="text-center">257</td>
+                                        <td class="text-center">عمر عبد اللطـيف</td>
+                                        <td class="text-center">01025658745</td>
+                                        <td class="text-center"><h6><span class="badge rounded-pill badge-light-secondary">  غـير فـعال</span></h6></td>
+                                        <td class="text-center">
+                                            <button class="btn btn-pill btn-primary widget-hover mt-3" type="button" title="btn btn-pill btn-primary" style="transition: 1s;"> تـفاصيل <i class="fas fa-info"></i></button>
+                                            <button class="btn btn-pill btn-success widget-hover mt-3" type="button" title="btn btn-pill btn-success" data-bs-toggle="modal" data-bs-target="#exampleModalfat3" data-whatever="@Html.Raw("@mdo")" style="transition: 1s;"> إشتراك <i class="fas fa-plus-circle"></i></button>
+
+                                        </td>
+                                        @*<span class="badge rounded-pill badge-success">*@
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+<div class="modal fade" id="exampleModalfat3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title align-items-center" id="exampleModalLabel2">  <img width="80" height="80" src="https://img.icons8.com/bubbles/80/user-male.png" alt="user-male" /> -  إشتراك  </h5>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="row">
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-signature"></i> <strong>رقـم العضـويه</strong></label>
+                            <input class="form-control btn-pill" type="text" placeholder=" 256" readonly>
+                        </div>
+
+                    </div>
+
+                    <div class="row">
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fas fa-sack-dollar"></i> <strong>قيمه الإشـتراك</strong></label>
+                            <input class="form-control btn-pill" type="text" placeholder="مثلا : 800 ج.م" required>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="mb-3 col-xxl-6 col-xl-12 box-col-12">
+                            <label class="form-label" for="exampleFormControlInput5"> <i class="fal fa-sort-numeric-up-alt"></i> <strong> رقـم الإيـصال</strong></label>
+                            <input class="form-control btn-pill" type="text" placeholder="مثلا : 254998" required>
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button class="btn btn-success rounded-pill widget-hover mt-3" style="transition: 1s;" type="submit"><strong>تـجديد</strong> <i class="fas fa-location-arrow" style="font-size: 17px;"></i></button>
+
+
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="modal fade bd-example2-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="myLargeModalLabel"> <img width="80" height="80" src="https://img.icons8.com/bubbles/80/document.png" alt="document" /> تفـاصيل الإشـراكات السابقه </h4>
+                <button class="btn-close" type="button" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="card-body">
+                    <div class="col-xl-12 xl-100 col-lg-12 box-col-12">
+                        <div class="card">
+
+                            <div class="table-responsive">
+                                <table class="table display align-middle text-center table-hover border border-secondary-subtle" id="table" data-order='[[ 0, "asc" ]]' data-page-length='10'>
+
+                                    <thead>
+                                        <tr>
+                                            <th class="text-center"> <i class="fas fa-sort-numeric-up font-primary"></i> رقـم الإيـصال</th>
+                                            <th class="text-center"><i class="fas fa-calendar-week font-primary"></i> تاريـخ الـدفع</th>
+                                            <th class="text-center"><i class="fas fa-dollar-sign font-success"></i> الـمبلغ </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td class="text-center">296584</td>
+                                            <td class="text-center"><h6><span class="badge rounded-pill badge-light-primary"> 03 / 02 / 2022</span></h6></td>
+                                            <td class="text-center"><h6><span class="badge rounded-pill badge-light-success"> 120 ج.م</span></h6></td>
+                                            @*<span class="badge rounded-pill badge-success">*@
+                                        </tr>
+                                        <tr>
+                                            <td class="text-center">587496</td>
+                                            <td class="text-center"><h6><span class="badge rounded-pill badge-light-primary"> 15 / 05 / 2023</span></h6></td>
+                                            <td class="text-center"><h6><span class="badge rounded-pill badge-light-success"> 120 ج.م</span></h6></td>
+
+                                            @*<span class="badge rounded-pill badge-success">*@
+                                        </tr>
+
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,108 @@
+﻿<div class="sidebar-wrapper" sidebar-layout="stroke-svg">
+    <div>
+        <div class="logo-wrapper">
+            <a asp-controller="SamplePage" asp-action="" style="font-weight:200">  أدندان الخيريه  </a>
+        </div>
+        <nav class="sidebar-main">
+            <div id="sidebar-menu">
+                <ul class="sidebar-links" id="simple-bar">
+                 
+                    <li class="sidebar-main-title">
+                        <div>
+                            <h6 class="lan-1">General</h6>
+                        </div>
+                    </li>
+                    <li class="sidebar-list" style="font-size: 16px;">
+                        <a class="sidebar-link sidebar-title" asp-controller="MQaber" asp-action="Index">
+                            <span>
+                                <i class="fa fa-cube" style="font-size: 25px; padding-left:10px;"></i>
+                                لـوحه التحكم
+                            </span>
+                        </a>
+                    </li>
+                
+                    <li class="sidebar-list" style="font-size: 16px;">
+
+                        <a class="sidebar-link sidebar-title">
+                            <span>
+                                <i class="far fa-hands-usd" style="font-size: 25px; padding-left:10px;"></i>
+                                الـكفالـه
+                            </span>
+                        </a>
+                        <ul class="sidebar-submenu">
+                            <li>
+                                <a asp-controller="SamplePage" asp-action="Page2">
+                                    <i class="fas fa-users" style="font-size: 25px; padding-left:10px;"></i>
+                                    إجمـالي الـحالات
+                                </a>
+                            </li>
+                            <li>
+                                <a asp-controller="Kfalaa" asp-action="KfalaaMembers"> <i class="fas fa-user-plus " style="font-size: 25px; padding-left:10px;"></i> إضـافه حـاله</a>
+                            </li>
+                            <li>
+                                <a asp-controller="Kfalaa" asp-action="Motbr3eenMembers"> <i class="fas fa-donate " style="font-size: 25px; padding-left:10px;"></i>  الـمتبرعين</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="sidebar-list" style="font-size: 16px;">
+                        <a class="sidebar-link sidebar-title">
+                            <span>
+                                <i class="fas fa-tombstone-alt" style="font-size: 25px; padding-left:10px;"></i>
+                                الـمقابـر
+                            </span>
+                        </a>
+                        <ul class="sidebar-submenu">
+                            <li><a asp-controller="MQaber" asp-action="ManteQa"><i class="fas fa-map-marked-alt" style="font-size: 25px; padding-left:10px;"></i> الـمناطق</a></li>
+                            <li>
+                                <a asp-controller="MQaber" asp-action="MQbraa"> <i class="fas fa-coffin" style="font-size: 25px; padding-left:10px;"></i> الـمقبرة</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-list" style="font-size: 16px;">
+                        <a class="sidebar-link sidebar-title" >
+                            <span>
+                                <i class="far fa-money-check-edit" style="font-size: 25px; padding-left:10px;"></i>
+                                الإشـتراكات
+                            </span>
+                        </a>
+                        <ul class="sidebar-submenu">
+                            <li><a asp-controller="Subscribe" asp-action="TotalMembers"><i class="fas fa-users" style="font-size: 25px; padding-left:10px;"></i> الأعـضاء</a></li>
+                            <li>
+                                <a asp-controller="Subscribe" asp-action="SMSSubscribers"> <i class="fas fa-sms" style="font-size: 25px; padding-left:10px;"></i>  الرسـائل النـصيه</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="sidebar-list" style="font-size: 16px;">
+                        <a class="sidebar-link sidebar-title" >
+                            <span>
+                                <i class="fas fa-file-alt" style="font-size: 25px; padding-left:10px;"></i>
+                                التقـارير
+                            </span>
+                        </a>
+                        <ul class="sidebar-submenu">
+                            <li><a asp-controller="Reports" asp-action="MQaberReports"><i class="fas fa-file-check" style="font-size: 25px; padding-left:10px;"></i> تـقارير المقابر</a></li>
+                            <li><a asp-controller="Reports" asp-action="KaflalaaReports"><i class="fas fa-balance-scale-right" style="font-size: 25px; padding-left:10px;"></i> تـقارير الـكفاله</a></li>
+                            
+                        </ul>
+                    </li>
+
+                    <li class="sidebar-list" style="font-size: 16px;">
+                        <a class="sidebar-link sidebar-title">
+                            <span>
+                                <i class="far fa-cogs" style="font-size: 25px; padding-left:10px;"></i>
+                                الـخدمات
+                            </span>
+                        </a>
+                        <ul class="sidebar-submenu">
+                            <li><a asp-controller="Subscribe" asp-action="CustomSMSSend"><i class="fas fa-envelope-open-text" style="font-size: 25px; padding-left:10px;"></i> خدمه الرسائل النصيه </a></li>
+
+                        </ul>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="right-arrow" id="right-arrow"><i data-feather="arrow-right"></i></div>
+        </nav>
+    </div>
+</div>
